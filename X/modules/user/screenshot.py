@@ -1,6 +1,6 @@
 import asyncio
 
-from pyrogram import filters
+from pyrogram import Client, filters
 from pyrogram.raw import functions
 from pyrogram.types import Message
 
