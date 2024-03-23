@@ -1,4 +1,4 @@
-from pyrogram import filters
+from pyrogram import Client, filters
 from pyrogram.types import Message
 from X.helpers.basic import edit_or_reply
 from .help import *
