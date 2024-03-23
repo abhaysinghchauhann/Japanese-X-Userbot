@@ -3,7 +3,7 @@ from asyncio import sleep
 from pyrogram import filters, Client 
 
 
-from X.helper.aiohttp_helper import AioHttp
+from X.helpers.aiohttp_helper import AioHttp
 from .help import *
 
 
