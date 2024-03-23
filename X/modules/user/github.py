@@ -4,7 +4,7 @@ from X.helpers.basic import edit_or_reply
 from .help import *
 
 
-@client.on_message(filters.me & filters.command(["git"], Command))
+@app.on_message(filters.me & filters.command(["git"], Command))
 async def github(_client, message):
     if len(message.text.split()) == 1:
             await message.edit("Usage: `git (username)`")
