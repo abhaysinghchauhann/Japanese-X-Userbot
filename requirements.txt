@@ -22,7 +22,7 @@ psycopg2-binary
 ptable
 pymediainfo
 pyrogram
-pytgcalls==3.0.0.dev22
+pytgcalls==3.0.0.dev24
 python-dotenv
 pykeyboard
 requests
