@@ -3,7 +3,7 @@ from pyrogram import filters, Client
 from pyrogram.types import Message
 
 
-from X.helper.aiohttp_helper import AioHttp
+from X.helpers.aiohttp_helper import AioHttp
 from .help import *
 
 cf_api_data = {
