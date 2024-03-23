@@ -2,7 +2,7 @@ import asyncio
 from html import escape
 
 import aiohttp
-from pyrogram import filters
+from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram import enums
 
