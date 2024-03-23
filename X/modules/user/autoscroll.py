@@ -1,4 +1,4 @@
-from pyrogram import Client, filters
+from pyrogram import filters
 from pyrogram.types import Message
 from X.helpers.basic import edit_or_reply
 from .help import *
@@ -9,13 +9,13 @@ f = filters.chat([])
 
 
 @Client.on_message(f)
-async def auto_read(client: Client, message: Message):
+async def auto_read(bot: Client, message: Message):
     await X.read_history(message.chat.id)
     message.continue_propagation()
 
 
 @Client.on_message(filters.command("autoscroll", ".") & filters.me)
-async def add_to_auto_read(client: Client, message: Message):
+async def add_to_auto_read(bot: Client, message: Message):
     if message.chat.id in f:
         f.remove(message.chat.id)
         await message.edit("Autoscroll deactivated")
