@@ -3,15 +3,6 @@ from pyrogram import Client, filters
 from X.helpers.basic import edit_or_reply
 from .help import *
 
-__MODULE__ = "Github"
-__HELP__ = """
-This module can help you find information about a github user!
-
-──「 **Github Acc Info** 」──
--> `git (username)`
-Finding information about a github user.
-
-"""
 
 @client.on_message(filters.me & filters.command(["git"], Command))
 async def github(_client, message):
@@ -55,3 +46,14 @@ async def github(_client, message):
                     REPLY += f"[{result[nr].get('name', None)}]({result[nr].get('html_url', None)})\n"
 
                 await message.edit(REPLY)
+
+
+add_command_help(
+    "git",
+    [
+        [
+            ".github",
+            ".git (username) Finding information about a github user. ",
+        ],
+    ],
+)
