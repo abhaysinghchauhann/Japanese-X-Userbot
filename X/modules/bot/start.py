@@ -10,7 +10,7 @@ from config import OWNER_ID as owner
 @app.on_callback_query()
 def pmowner(client, callback_query):
     user_id = owner
-    message = "𝐋𝐨𝐥 𝐖𝐡𝐨 𝐢𝐬 𝐚 𝐃𝐨𝐠!!!!"
+    message = "A Pᴏᴡᴇʀғᴜʟ Assɪᴛᴀɴᴛ 𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄 𝐗 𝐔𝐒𝐄𝐑𝐁𝐎𝐓!!!!"
     client.send_message(user_id, message)
     client.answer_callback_query(callback_query.id, text="Message sent")
 
@@ -24,7 +24,7 @@ alive_logo = random.choice(logoX)
 async def start(app, message):
     chat_id = message.chat.id
     file_id = alive_logo
-    caption = "𝐇𝐢, 𝐈 𝐚𝐦 𝐀𝐬𝐢𝐬𝐬𝐭𝐚𝐧𝐭 𝐉𝐚𝐩𝐚𝐧𝐞𝐬𝐞-𝐗-𝐔𝐬𝐞𝐫𝐛𝐨𝐭\n 𝐖𝐡𝐚𝐭 𝐛𝐫𝐨? 𝐈𝐟 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐛𝐞 𝐚𝐧𝐠𝐫𝐲, 𝐲𝐨𝐮 𝐫𝐞𝐚𝐥𝐥𝐲 𝐡𝐚𝐯𝐞 𝐚 𝐭𝐚𝐭𝐭𝐨𝐨?."
+    caption = f"Hello, **{firstname}**!!\nNice To Meet You 🤗 !!\nI guess, that you know me, Uhh you don't, np..\nWell I'm **{bot_id}**.\n\n**A Pᴏᴡᴇʀғᴜʟ Assɪᴛᴀɴᴛ Oғ** [{hmmwow}](tg://user?id={boy})\n\n                           **Pᴏᴡᴇʀᴇᴅ Bʏ** [𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄 𝐗 𝐔𝐒𝐄𝐑𝐁𝐎𝐓](t.me/Japanese_Userbot)\n\n**Yᴏᴜ Cᴀɴ Cʜᴀᴛ Wɪᴛʜ Mʏ Mᴀsᴛᴇʀ Tʜʀᴏᴜɢʜ Tʜɪs Bᴏᴛ.**\n**Iғ Yᴏᴜ Wᴀɴᴛ Yᴏᴜʀ Oᴡɴ Assɪᴛᴀɴᴛ Yᴏᴜ Cᴀɴ Dᴇᴘʟᴏʏ Fʀᴏᴍ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ.**"
     reply_markup = InlineKeyboardMarkup([
         [
             InlineKeyboardButton("𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url="https://t.me/Japanese_Userbot_Chat"),
