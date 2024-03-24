@@ -96,8 +96,8 @@
 -  [OnlyMeriz](https://github.com/Onlymeriz) : OnlyMeriz
 -  [Toni](https://github.com/Toni880) : Prime-UserBot
 -  [Tofikdn](https://github.com/tofikdn) : Tede
--  [Kazu](https://github.com/ionmusic) : Kazu
 -  [Ultra X](https://github.com/ULTRA-OP/ULTRA-X) : Ultra-X
+-  [Kazu](https://github.com/ionmusic) : Kazu
 -  [Geez|Ram] : Geez Ram
 
 ### 𝑪𝒓𝒆𝒅𝒊𝒕
