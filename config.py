@@ -22,6 +22,7 @@ BOT_VER = "1.1.5@main"
 BRANCH = getenv("BRANCH", "main") #don't change this line 
 CMD_HNDLR = cmd
 OWNER_ID = getenv("OWNER_ID", "")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 BOT_TOKEN = getenv("BOT_TOKEN", "none")
 OPENAI_API_KEY = getenv("OPENAI_API_KEY", "")
 CHANNEL = getenv("CHANNEL", "Japanese_Userbot")
