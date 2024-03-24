@@ -13,7 +13,7 @@ from .help import *
 @Client.on_message(filters.command(["weather", "w"], ".") & filters.me)
 async def get_weather(bot: Client, message: Message):
     if len(message.command) == 1:
-        await message.edit("Usage: `.weather India`")
+        await message.edit("Usage: `.weather Delhi`")
         await asyncio.sleep(3)
         await message.delete()
 
