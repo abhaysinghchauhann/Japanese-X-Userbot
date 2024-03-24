@@ -6,7 +6,6 @@ from pyrogram.types import Message
 
 from config import CMD_HANDLER
 from X.helpers.basic import edit_or_reply
-from X import SUDO_USER
 from X.helpers.PyroHelpers import ReplyCheck
 from X.utils.misc import extract_user
 
