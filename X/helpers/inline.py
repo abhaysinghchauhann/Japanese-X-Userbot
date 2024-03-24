@@ -54,7 +54,7 @@ def cb_wrapper(func):
         users = list_users
         if cb.from_user.id not in users:
             await cb.answer(
-                "Yahahaha You can't do it if you want to see it and make it yourself Wleee",
+                "𝐘𝐚𝐡𝐚𝐡𝐚𝐡𝐚 𝐘𝐨𝐮 𝐜𝐚𝐧'𝐭 𝐝𝐨 𝐢𝐭 𝐢𝐟 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐬𝐞𝐞 𝐢𝐭 𝐚𝐧𝐝 𝐦𝐚𝐤𝐞 𝐢𝐭 𝐲𝐨𝐮𝐫𝐬𝐞𝐥𝐟 𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄 𝐗 𝐔𝐒𝐄𝐑𝐁𝐎𝐓",
                 cache_time=0,
                 show_alert=True,
             )
@@ -66,7 +66,7 @@ def cb_wrapper(func):
             except Exception:
                 print(format_exc())
                 await cb.answer(
-                    f"Oh No, It Looks Like There's A Problem Going On Now. Please check the logs!",
+                    f"𝐎𝐡 𝐍𝐨, 𝐈𝐭 𝐋𝐨𝐨𝐤𝐬 𝐋𝐢𝐤𝐞 𝐓𝐡𝐞𝐫𝐞'𝐬 𝐀 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 𝐆𝐨𝐢𝐧𝐠 𝐎𝐧 𝐍𝐨𝐰. 𝐏𝐥𝐞𝐚𝐬𝐞 𝐜𝐡𝐞𝐜𝐤 𝐭𝐡𝐞 𝐥𝐨𝐠𝐬!",
                     cache_time=0,
                     show_alert=True,
                 )
@@ -84,9 +84,9 @@ def inline_wrapper(func):
                 results=[
                     (
                         InlineQueryResultArticle(
-                            title="Sorry, You Must Be A Sudo User To Use Me!",
+                            title="𝐒𝐨𝐫𝐫𝐲, 𝐘𝐨𝐮 𝐌𝐮𝐬𝐭 𝐁𝐞 𝐀 𝐒𝐮𝐝𝐨 𝐔𝐬𝐞𝐫 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞!",
                             input_message_content=InputTextMessageContent(
-                                "Or you can make it yourself at @Japanese_Userbot"
+                                "𝐎𝐫 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐦𝐚𝐤𝐞 𝐢𝐭 𝐲𝐨𝐮𝐫𝐬𝐞𝐥𝐟 𝐚𝐭 @Japanese_Userbot"
                             ),
                         )
                     )
