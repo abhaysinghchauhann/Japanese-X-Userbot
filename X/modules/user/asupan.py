@@ -90,7 +90,7 @@ async def ppcp(client, message):
             ]
         ),
         False,
-        caption=f"📌 PP Couple Alay Lo This is Tod",
+        caption=f"📌 PP Couple here is some couples pics",
     )
 
     await yanto.delete()
@@ -111,30 +111,30 @@ async def ppanime(client, message):
             ]
         ),
         False,
-        caption=f"📌 PP Wibu Lu Nih Tod",
+        caption=f"📌 PP Wibu here is some couples pics",
     )
 
     await yanto.delete()
 
 
 add_command_help(
-    "asupan",
+    "•─╼⃝𖠁 ᴀꜱᴜᴘᴀɴ",
     [
         [
             f"asupan atau {cmd}ptl",
-            "To send intake videos randomly.",
+            "Tᴏ ꜱᴇɴᴅ ɪɴᴛᴀᴋᴇ ᴠɪᴅᴇᴏꜱ ʀᴀɴᴅᴏᴍʟʏ.",
         ],
         [
             f"ayang {cmd}",
-            "To search for random photos of Ayang.",
+            "Tᴏ ꜱᴇᴀʀᴄʜ ғᴏʀ ʀᴀɴᴅᴏᴍ ᴘʜᴏᴛᴏꜱ ᴏғ Aʏᴀɴɢ.",
         ],
         [
             f"ppcp atau {cmd}couple",
-            "To Search for Pp Couples Randomly.",
+            "Tᴏ Sᴇᴀʀᴄʜ ғᴏʀ Pᴘ Cᴏᴜᴘʟᴇꜱ Rᴀɴᴅᴏᴍʟʏ.",
         ],
         [
             f"ppanime {cmd}",
-            "To search for anime pp randomly.",
+            "Tᴏ ꜱᴇᴀʀᴄʜ ғᴏʀ ᴀɴɪᴍᴇ ᴘᴘ ʀᴀɴᴅᴏᴍʟʏ.",
         ]
     ],
-) 
+)
