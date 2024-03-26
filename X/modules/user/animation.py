@@ -714,8 +714,8 @@ async def snake(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command(["helikopter", "heli"], cmd) & filters.me)
-async def helikopter(client: Client, message: Message):
+@Client.on_message(filters.command(["helicopter", "heli"], cmd) & filters.me)
+async def helicopter(client: Client, message: Message):
     await edit_or_reply(
         message,
         "▬▬▬.◙.▬▬▬ \n"
@@ -737,8 +737,8 @@ async def helikopter(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command("tembak", cmd) & filters.me)
-async def dornembak(client: Client, message: Message):
+@Client.on_message(filters.command("gf", cmd) & filters.me)
+async def gf(client: Client, message: Message):
     await edit_or_reply(
         message,
         "_/﹋\\_\n" "(҂`_´)\n" "<,︻╦╤─ ҉\n" r"_/﹋\_" "\n**Do you want to be my girlfriend??!**",
