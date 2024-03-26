@@ -332,6 +332,38 @@ async def gahah(client: Client, message: Message):
     await asyncio.sleep(0.2)
     await message.edit("hehe 🤣😂")
 
+@Client.on_message(filters.command("theart", cmd) & filters.me)
+async def gahah(client: Client, message: Message):
+    if message.forward_from:
+        return
+    await message.edit("❤️❤️")
+    await asyncio.sleep(0.2)
+    await message.edit("🧡🧡")
+    await asyncio.sleep(0.2)
+    await message.edit("💛💛")
+    await asyncio.sleep(0.2)
+    await message.edit("💚💚")
+    await asyncio.sleep(0.2)
+    await message.edit("💙💙")
+    await asyncio.sleep(0.2)
+    await message.edit("💜💜")
+    await asyncio.sleep(0.2)
+    await message.edit("🖤🖤")
+    await asyncio.sleep(0.2)
+    await message.edit("💘💘")
+    await asyncio.sleep(0.2)
+    await message.edit("💝💝")
+    await asyncio.sleep(0.2)
+    await message.edit("❤️❤️")
+    await asyncio.sleep(0.2)
+    await message.edit("🧡🧡")
+    await asyncio.sleep(0.2)
+    await message.edit("💛💛")
+    await asyncio.sleep(0.2)
+    await message.edit("💝💝")
+    await asyncio.sleep(0.2)
+    await message.edit("💜💜")
+
 @Client.on_message(filters.command("wtf", cmd) & filters.me)
 async def gagahkah(client: Client, message: Message):
     if message.forward_from:
