@@ -11,7 +11,7 @@ from .help import *
 async def extract_audio(client: Client, message: Message):
     replied = message.reply_to_message
     if not replied:
-        await message.edit("**Please Reply To Video**")
+        await message.edit("**Pʟᴇᴀꜱᴇ Rᴇᴘʟʏ Tᴏ Vɪᴅᴇᴏ**")
         return
     if replied.media == MessageMediaType.VIDEO:
         await message.edit("`Downloading Video . . .`")
@@ -43,7 +43,7 @@ async def extract_audio(client: Client, message: Message):
 async def makevoice(client: Client, message: Message):
     replied = message.reply_to_message
     if not replied:
-        await message.edit("**Please Reply To Audio or video**")
+        await message.edit("**Pʟᴇᴀꜱᴇ Rᴇᴘʟʏ Tᴏ Aᴜᴅɪᴏ ᴏʀ ᴠɪᴅᴇᴏ**")
         return
     if replied.media == MessageMediaType.VIDEO or MessageMediaType.AUDIO:
         await message.edit("`Downloading . . .`")
@@ -72,5 +72,5 @@ async def makevoice(client: Client, message: Message):
         except BaseException as e:
             await message.edit(f"**INFO:** `{e}`")
     else:
-        await message.edit("**Please Reply To Audio or video**")
+        await message.edit("**Pʟᴇᴀꜱᴇ Rᴇᴘʟʏ Tᴏ Aᴜᴅɪᴏ ᴏʀ ᴠɪᴅᴇᴏ*")
         return 
