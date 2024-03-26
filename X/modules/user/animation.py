@@ -1123,8 +1123,8 @@ async def nahlove(client: Client, message: Message):
     await typew.edit("`\n(\\_/)`" "`\n(●_●)`" "`\n💖<\\  *tap IB OO that one`")
 
 
-@Client.on_message(filters.command("santet", cmd) & filters.me)
-async def santet(client: Client, message: Message):
+@Client.on_message(filters.command("scam", cmd) & filters.me)
+async def scam(client: Client, message: Message):
     typew = await edit_or_reply(message, "`Activates Witchcraft Commands Online....`")
     await asyncio.sleep(2)
     await typew.edit("`Search for This Person's Name...`")
@@ -1453,7 +1453,7 @@ add_command_help(
         ["fuck", "To display the middle finger animation."],
         ["ror", "To display a ror animation."],
         ["dino", "To display an animation of being chased by a dino."],
-        ["santet", "To display an online blackmail animation."],
+        ["scam", "To display an online blackmail animation."],
         ["gabut", "To display the latch animation."],
         ["sayang", "To display animation darling."],
         ["hack", "To display a fake kicking animation."],
