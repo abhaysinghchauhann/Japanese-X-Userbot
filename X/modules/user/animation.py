@@ -1173,7 +1173,7 @@ async def hearts(client: Client, message: Message):
 
 
 add_command_help(
-    "animation",
+    "•─╼⃝𖠁 ᴀɴɪᴍᴀᴛɪᴏɴ",
     [
         ["fuck", "To display the middle finger animation."],
         ["ror", "To display a ror animation."],
