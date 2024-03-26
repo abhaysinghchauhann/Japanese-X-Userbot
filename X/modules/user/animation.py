@@ -1464,7 +1464,7 @@ add_command_help(
         ["lipkol", "To display Ayang's art."],
         ["nakal", "To display naughty art."],
         ["nah", "To show art love."],
-        ["ajg", "To display dog ​​art."],
+        ["pat", "To display pat ​​art."],
         ["babi", "To display pig art."],
         ["hug", "To get A Hug Gifs anime."],
         ["hmm", "Get Random Hmmm."],
