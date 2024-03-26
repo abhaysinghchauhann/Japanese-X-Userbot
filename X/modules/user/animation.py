@@ -122,46 +122,6 @@ async def _(client: Client, message: Message):
     await edit_or_reply(message, reply_text)
 
 
-@Client.on_message(filters.command("wink", cmd) & filters.me)
-async def wink(client: Client, message: Message):
-    hmm_s = "https://some-random-api.ml/animu/wink"
-    r = requests.get(url=hmm_s).json()
-    image_s = r["link"]
-    await client.send_video(message.chat.id, image_s)
-    await message.delete()
-
-
-@Client.on_message(filters.command("hug", cmd) & filters.me)
-async def hug(client: Client, message: Message):
-    hmm_s = "https://some-random-api.ml/animu/hug"
-    r = requests.get(url=hmm_s).json()
-    image_s = r["link"]
-    await client.send_video(message.chat.id, image_s)
-    await message.delete()
-
-
-@Client.on_message(filters.command("pat", cmd) & filters.me)
-async def pat(client: Client, message: Message):
-    hmm_s = "https://some-random-api.ml/animu/pat"
-    r = requests.get(url=hmm_s).json()
-    image_s = r["link"]
-    await client.send_video(message.chat.id, image_s)
-    await message.delete()
-
-
-@Client.on_message(filters.command("pikachu", cmd) & filters.me)
-async def pikachu(client: Client, message: Message):
-    hmm_s = "https://some-random-api.ml/img/pikachu"
-    r = requests.get(url=hmm_s).json()
-    image_s = r["link"]
-    await client.send_video(message.chat.id, image_s)
-    if image_s.endswith(".png"):
-        await client.send_photo(message.chat.id, image_s)
-        return
-    if image_s.endswith(".jpg"):
-        await client.send_photo(message.chat.id, image_s)
-        return
-    await message.delete()
 
 
 @Client.on_message(filters.command("hmm", cmd) & filters.me)
@@ -418,8 +378,8 @@ async def timer_blankx(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command(["koc", "kocok"], cmd) & filters.me)
-async def kocok(client: Client, message: Message):
+@Client.on_message(filters.command(["ass"], cmd) & filters.me)
+async def ass(client: Client, message: Message):
     e = await edit_or_reply(message, "8✊===D")
     await e.edit("8=✊==D")
     await e.edit("8==✊=D")
@@ -541,13 +501,7 @@ async def hak(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command(["kontol", "kntl"], cmd) & filters.me)
-async def kontol(client: Client, message: Message):
-    emoji = get_text(message)
-    kontol = MEMES.GAMBAR_KONTOL
-    if emoji:
-        kontol = kontol.replace("⡀", emoji)
-    await message.edit(kontol)
+
 
 
 @Client.on_message(filters.command(["penis", "dick"], cmd) & filters.me)
@@ -1459,7 +1413,7 @@ add_command_help(
         ["hack", "To display a fake kicking animation."],
         ["bomb", "To display the Bomb animation."],
         ["brain", "To display Brain animation 🧠."],
-        ["kontol", "To display dick art."],
+        ["ass", "To display ass art."],
         ["penis", "To display penis art with emojis."],
         ["tembak","To display shooting art."],
         ["bundir", "To display bundir art."],
@@ -1472,18 +1426,13 @@ add_command_help(
         ["nah", "To show art love."],
         ["ajg", "To display dog ​​art."],
         ["babi", "To display pig art."],
-        ["hug", "To get A Hug Gifs anime."],
         ["hmm", "Get Random Hmmm."],
-        ["wink", "To Get A Winking Gifs."],
         ["love", "To Propose Someone."],
         ["loveyou", "It Will Send Random Emojis."],
         [
             "pat",
             "To get a pat gifs",
         ],
-        [
-            "pikachu",
-            "to get a Pikachu Gifs",
         ],
         [
             "kill",
