@@ -1187,7 +1187,7 @@ add_command_help(
         ["drugs", "To display drugs art."],
         ["helicopter", "To display helicopter art."],
         ["y", "To display art y sj."],
-        ["awk", "For displays art aowkaowkaowk."],
+        ["run", "For displays art run."],
         ["ange", "To display art ange."],
         ["lipkol", "To display Ayang's art."],
         ["nakal", "To display naughty art."],
