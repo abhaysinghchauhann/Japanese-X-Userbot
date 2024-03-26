@@ -1095,8 +1095,8 @@ async def babi(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command(["ajg", "anjg"], cmd) & filters.me)
-async def anjg(client: Client, message: Message):
+@Client.on_message(filters.command(["pat"], cmd) & filters.me)
+async def pat(client: Client, message: Message):
     await edit_or_reply(
         message,
         "╥━━━━━━━━╭━━╮━━┳\n"
