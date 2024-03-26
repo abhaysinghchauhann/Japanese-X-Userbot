@@ -865,8 +865,8 @@ async def pat(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command("nah", cmd) & filters.me)
-async def nahlove(client: Client, message: Message):
+@Client.on_message(filters.command("nolove", cmd) & filters.me)
+async def nolove(client: Client, message: Message):
     typew = await edit_or_reply(
         message, "`\n(\\_/)`" "`\n(●_●)`" "`\n />💖 *This is for you`"
     )
@@ -1217,7 +1217,7 @@ add_command_help(
         ["ange", "To display art ange."],
         ["lipkol", "To display Ayang's art."],
         ["nakal", "To display naughty art."],
-        ["nah", "To show art love."],
+        ["nolove", "To show art love."],
         ["pat", "To display pat ​​art."],
         ["cat", "To display cat art."],
         ["hug", "To get A Hug Gifs anime."],
