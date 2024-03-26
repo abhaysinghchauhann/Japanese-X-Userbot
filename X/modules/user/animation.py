@@ -598,8 +598,8 @@ async def adadino(client: Client, message: Message):
 
 
 
-@Client.on_message(filters.command(["ular"], cmd) & filters.me)
-async def ular(client: Client, message: Message):
+@Client.on_message(filters.command(["snake"], cmd) & filters.me)
+async def snake(client: Client, message: Message):
     await edit_or_reply(
         message,
         "░░░░▓\n"
