@@ -594,32 +594,6 @@ async def adadino(client: Client, message: Message):
     await typew.edit("`-ENDED-`")
 
 
-@Client.on_message(filters.command(["sayang", "syg"], cmd) & filters.me)
-async def zeyenk(client: Client, message: Message):
-    e = await edit_or_reply(message, "I LOVEE YOUUU 💕")
-    await e.edit("💝💘💓💗")
-    await e.edit("💞💕💗💘")
-    await e.edit("💝💘💓💗")
-    await e.edit("💞💕💗💘")
-    await e.edit("💘💞💗💕")
-    await e.edit("💘💞💕💗")
-    await e.edit("SAYANG KAMU 💝💖💘")
-    await e.edit("💝💘💓💗")
-    await e.edit("💞💕💗💘")
-    await e.edit("💘💞💕💗")
-    await e.edit("SAYANG")
-    await e.edit("KAMU")
-    await e.edit("SELAMANYA 💕")
-    await e.edit("💘💘💘💘")
-    await e.edit("SAYANG")
-    await e.edit("KAMU")
-    await e.edit("SAYANG")
-    await e.edit("KAMU")
-    await e.edit("I LOVE YOUUUU")
-    await e.edit("MY BABY")
-    await e.edit("💕💞💘💝")
-    await e.edit("💘💕💞💝")
-    await e.edit("SAYANG KAMU💞")
 
 
 @Client.on_message(filters.command("gabut", cmd) & filters.me)
@@ -1433,7 +1407,6 @@ add_command_help(
         ["dino", "To display an animation of being chased by a dino."],
         ["scam", "To display an online blackmail animation."],
         ["gabut", "To display the latch animation."],
-        ["sayang", "To display animation darling."],
         ["hack", "To display a fake kicking animation."],
         ["bomb", "To display the Bomb animation."],
         ["brain", "To display Brain animation 🧠."],
