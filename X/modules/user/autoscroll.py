@@ -25,12 +25,12 @@ async def add_to_auto_read(bot: Client, message: Message):
 
 
 add_command_help(
-    "autoscroll",
+    "•─╼⃝𖠁 ᴀᴜᴛᴏꜱᴄʀᴏʟʟ",
     [
         [
             ".autoscroll",
-            "Send .autoscroll in any chat to automatically read all sent messages until you call "
-            "autoscroll again. This is useful if you have Telegram open on another screen.",
+            "Sᴇɴᴅ .ᴀᴜᴛᴏꜱᴄʀᴏʟʟ ɪɴ ᴀɴʏ ᴄʜᴀᴛ ᴛᴏ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ʀᴇᴀᴅ ᴀʟʟ ꜱᴇɴᴛ ᴍᴇꜱꜱᴀɢᴇꜱ ᴜɴᴛɪʟ ʏᴏᴜ ᴄᴀʟʟ "
+            "ᴀᴜᴛᴏꜱᴄʀᴏʟʟ ᴀɢᴀɪɴ. Tʜɪꜱ ɪꜱ ᴜꜱᴇғᴜʟ ɪғ ʏᴏᴜ ʜᴀᴠᴇ Tᴇʟᴇɢʀᴀᴍ ᴏᴘᴇɴ ᴏɴ ᴀɴᴏᴛʜᴇʀ ꜱᴄʀᴇᴇɴ.",
         ],
     ],
 )
