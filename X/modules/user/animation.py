@@ -1080,12 +1080,12 @@ async def tank(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command("babi", cmd) & filters.me)
-async def babi(client: Client, message: Message):
+@Client.on_message(filters.command("cat", cmd) & filters.me)
+async def cat(client: Client, message: Message):
     await edit_or_reply(
         message,
         "┈┈┏━╮╭━┓┈╭━━━━╮\n"
-        "┈┈┃┏┗┛┓┃╭┫Ngok ┃\n"
+        "┈┈┃┏┗┛┓┃╭┫cat ┃\n"
         "┈┈╰┓▋▋┏╯╯╰━━━━╯\n"
         "┈╭━┻╮╲┗━━━━╮╭╮┈\n"
         "┈┃▎▎┃╲╲╲╲╲╲┣━╯┈\n"
@@ -1465,7 +1465,7 @@ add_command_help(
         ["nakal", "To display naughty art."],
         ["nah", "To show art love."],
         ["pat", "To display pat ​​art."],
-        ["babi", "To display pig art."],
+        ["cat", "To display cat art."],
         ["hug", "To get A Hug Gifs anime."],
         ["hmm", "Get Random Hmmm."],
         ["wink", "To Get A Winking Gifs."],
