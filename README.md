@@ -97,6 +97,7 @@
 -  [Toni](https://github.com/Toni880) : Prime-UserBot
 -  [Tofikdn](https://github.com/tofikdn) : Tede
 -  [Ultra X](https://github.com/ULTRA-OP/ULTRA-X) : Ultra-X
+-  [Ultroid](https://github.com/TeamUltroid/Ultroid) : Ultroid 
 -  [Kazu](https://github.com/ionmusic) : Kazu
 -  [Geez|Ram] : Geez Ram
 
