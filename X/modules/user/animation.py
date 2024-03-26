@@ -418,8 +418,8 @@ async def timer_blankx(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command(["koc", "kocok"], cmd) & filters.me)
-async def kocok(client: Client, message: Message):
+@Client.on_message(filters.command(["cock"], cmd) & filters.me)
+async def cock(client: Client, message: Message):
     e = await edit_or_reply(message, "8✊===D")
     await e.edit("8=✊==D")
     await e.edit("8==✊=D")
