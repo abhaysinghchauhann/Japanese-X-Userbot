@@ -765,37 +765,11 @@ async def drugs(client: Client, message: Message):
         "　　　　　 Ｕ Ｕ\n",
     )
 
-@Client.on_message(filters.command(["ange", "sange"], cmd) & filters.me)
-async def kocok(client: Client, message: Message):
-    e = await edit_or_reply(message, "Ayanggg 😖")
-    await asyncio.sleep(2)
-    await e.edit("Aku Ange 😫")
-    await asyncio.sleep(2)
-    await e.edit("Come on Pisces Yang 🤤")
 
 
-@Client.on_message(filters.command(["lipkol", "sleepcall"], cmd) & filters.me)
-async def lipkol(client: Client, message: Message):
-    e = await edit_or_reply(message, "Ayanggg 😖")
-    await asyncio.sleep(2)
-    await e.edit("Kangeeen 👉👈")
-    await asyncio.sleep(2)
-    await e.edit("Pinkie's sleeping bag is Yang 🥺👉👈")
-    
 
-@Client.on_message(filters.command(["nakal", "bandel"], cmd) & filters.me)
-async def nakal(client: Client, message: Message):
-    e = await edit_or_reply(message, "Ayanggg ih🥺")
-    await asyncio.sleep(2)
-    await e.edit("Very naughty bro 🥺")
-    await asyncio.sleep(2)
-    await e.edit("I don't like Ayang 😠")
-    await asyncio.sleep(2)
-    await e.edit("Anyway, I don't like Ig 😠")
-
-
-@Client.on_message(filters.command(["awk", "awikwok"], cmd) & filters.me)
-async def awikwok(client: Client, message: Message):
+@Client.on_message(filters.command(["run"], cmd) & filters.me)
+async def run(client: Client, message: Message):
     await edit_or_reply(
         message,
         "────██──────▀▀▀██\n"
