@@ -140,13 +140,7 @@ async def hug(client: Client, message: Message):
     await message.delete()
 
 
-@Client.on_message(filters.command("pat", cmd) & filters.me)
-async def pat(client: Client, message: Message):
-    hmm_s = "https://some-random-api.ml/animu/pat"
-    r = requests.get(url=hmm_s).json()
-    image_s = r["link"]
-    await client.send_video(message.chat.id, image_s)
-    await message.delete()
+
 
 
 @Client.on_message(filters.command("pikachu", cmd) & filters.me)
