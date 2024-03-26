@@ -745,8 +745,8 @@ async def gf(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command("bundir", cmd) & filters.me)
-async def ngebundir(client: Client, message: Message):
+@Client.on_message(filters.command("drugs", cmd) & filters.me)
+async def drugs(client: Client, message: Message):
     await edit_or_reply(
         message,
         "`Drugs Everything...`          \n　　　　　|"
@@ -1210,7 +1210,7 @@ add_command_help(
         ["bomb", "To display the Bomb animation."],
         ["brain", "To display Brain animation 🧠."],
         ["gf","To display gf art."],
-        ["bundir", "To display bundir art."],
+        ["drugs", "To display drugs art."],
         ["helicopter", "To display helicopter art."],
         ["y", "To display art y sj."],
         ["awk", "For displays art aowkaowkaowk."],
