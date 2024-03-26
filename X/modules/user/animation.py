@@ -535,22 +535,6 @@ async def hak(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command(["kontol", "kntl"], cmd) & filters.me)
-async def kontol(client: Client, message: Message):
-    emoji = get_text(message)
-    kontol = MEMES.GAMBAR_KONTOL
-    if emoji:
-        kontol = kontol.replace("⡀", emoji)
-    await message.edit(kontol)
-
-
-@Client.on_message(filters.command(["penis", "dick"], cmd) & filters.me)
-async def titid(client: Client, message: Message):
-    emoji = get_text(message)
-    titid = MEMES.GAMBAR_TITIT
-    if emoji:
-        titid = titid.replace("😋", emoji)
-    await message.edit(titid)
 
 
 @Client.on_message(filters.command("dino", cmd) & filters.me)
@@ -1453,8 +1437,6 @@ add_command_help(
         ["hack", "To display a fake kicking animation."],
         ["bomb", "To display the Bomb animation."],
         ["brain", "To display Brain animation 🧠."],
-        ["kontol", "To display dick art."],
-        ["penis", "To display penis art with emojis."],
         ["tembak","To display shooting art."],
         ["bundir", "To display bundir art."],
         ["helikopter", "To display helicopter art."],
