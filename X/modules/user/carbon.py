@@ -50,8 +50,8 @@ async def carbon_func(client: Client, message: Message):
 
 
 add_command_help(
-    "carbon",
+    "•─╼⃝𖠁 ᴄᴀʀʙᴏɴ",
     [
-        ["carbon <reply>", "Text carbonization with default settings."],
+        ["carbon <ʀᴇᴘʟʏ>", "Tᴇxᴛ ᴄᴀʀʙᴏɴɪᴢᴀᴛɪᴏɴ ᴡɪᴛʜ ᴅᴇғᴀᴜʟᴛ ꜱᴇᴛᴛɪɴɢꜱ."],
     ],
 ) 
