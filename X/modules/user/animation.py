@@ -780,8 +780,8 @@ async def run(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command("y", cmd) & filters.me)
-async def ysaja(client: Client, message: Message):
+@Client.on_message(filters.command("thumb", cmd) & filters.me)
+async def thumb(client: Client, message: Message):
     await edit_or_reply(
         message,
         "‡‡‡‡‡‡‡‡‡‡‡‡▄▄▄▄\n"
@@ -1186,24 +1186,20 @@ add_command_help(
         ["gf","To display gf art."],
         ["drugs", "To display drugs art."],
         ["helicopter", "To display helicopter art."],
-        ["y", "To display art y sj."],
+        ["thumb", "To display art thumb."],
         ["run", "For displays art run."],
         ["nolove", "To show art love."],
         ["pat", "To display pat ​​art."],
         ["cat", "To display cat art."],
         ["hug", "To get A Hug Gifs anime."],
         ["hmm", "Get Random Hmmm."],
-        ["wink", "To Get A Winking Gifs."],
         ["love", "To Propose Someone."],
         ["loveyou", "It Will Send Random Emojis."],
         [
             "pat",
             "To get a pat gifs",
         ],
-        [
-            "pikachu",
-            "to get a Pikachu Gifs",
-        ],
+        
         [
             "kill",
             "To kill Someone randomly",
